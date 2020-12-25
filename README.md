@@ -16,7 +16,7 @@
                 Healthy Heart is an Unofficial heart disease classification API. It take the health related data like age,cestpain,calories and etc and classifies it as the paitents has heart desies or not. <br><br> This an free api service so enjoy it. And that's what this API saves you of. ;) <br><br> <b>Notice:</b> Healthy Heart does not support authenticated requests. You can not update your paitent list.
             </p>
             <p style="font-size: 16px;">
-               <b>API Path: </b><span class="border-normal p-1">http://127.0.0.1:5300/api/classify</span>
+               <b>API Path: </b><span class="border-normal p-1">http://127.0.0.1:5300/api/predict</span>
             </p>
             <p style="font-size: 16px;">
                 <b>API Version: </b><span class="border-normal p-1">v1.0</span>
