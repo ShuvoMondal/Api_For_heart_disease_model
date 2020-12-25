@@ -1,11 +1,9 @@
 from flask import Flask,jsonify,render_template,request
-import flask_monitoringdashboard as dashboard
 from flask_cors import cross_origin
 import pickle
 import pandas as pd
 
 app = Flask(__name__)
-dashboard.bind(app)
 
 rfc=pickle.load(open('model.pkl','rb'))
 
@@ -47,5 +45,6 @@ def predict():
 if __name__ == "__main__":
     app.run(debug=True, port="5300")
 
-#http://127.0.0.1:5300/api/predict/18/1/0/125/212/0/1/168/0/3.0/2/2/3
-#http://127.0.0.1:5300/api/predict/20/1/3/73/158/0/0/142/0/1.8/2/0/3
+#Endpointes
+#http://127.0.0.1:5300/api/predict/
+#http://127.0.0.1:5300/api/predict/
