@@ -10,7 +10,7 @@
   <body class="bg-color">
     <div class="container p-5">
         <div class="card p-5">
-            <h1 class="bold text-secondary monts-bold mb-0 pb-0">Healthy Heart</h1><hr>
+            <h1 class="bold text-secondary monts-bold mb-0 pb-0">Healthy Heart</h1>
             <h5 class="text-success monts-700">INTRODUCTION</h5>
             <p class="text-justify">
                 Healthy Heart is an Unofficial heart disease classification API. It take the health related data like age,cestpain,calories and etc and classifies it as the paitents has heart desies or not. <br><br> This an free api service so enjoy it. And that's what this API saves you of. ;) <br><br> <b>Notice:</b> Healthy Heart does not support authenticated requests. You can not update your paitent list.
