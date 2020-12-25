@@ -5,7 +5,6 @@
 -Open console and run app.py<br>
 --python app.py<br>
 # More deatils 
-<!doctype html>
 <html lang="en">
   <body class="bg-color">
     <div class="container p-5">
